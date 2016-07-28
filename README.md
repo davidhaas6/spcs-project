@@ -1,2 +1,2 @@
 # spcs-project
-Variational autoencoder to generate novel fonts
+Denoising autoencoder specifically tuned for fonts

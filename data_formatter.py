@@ -53,7 +53,7 @@ for font_file in font_files:
                 if ImageChops.invert(alphabet_img).getbbox() and alphabet_img.histogram()[1] is not 0:
                     alphabet_img.save(imgdirectory + font.getname()[0] + '_' + font.getname()[1] + '.png')
             except IOError:
-                print 'IOError on font:', font.getname()[0] + '. Woops!'
+                print('IOError on font:', font.getname()[0] + '. Woops!')
 
 # set font directory
 # for-each for each ttf file
