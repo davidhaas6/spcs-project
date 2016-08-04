@@ -1,2 +1,2 @@
 # spcs-project
-Denoising autoencoder specifically tuned for fonts
+Pointing autoencoders towards font generation
